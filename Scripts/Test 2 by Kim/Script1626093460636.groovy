@@ -19,13 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://comptatest.odoo.com/web/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_Odoo/input_Email_login'), 'djibrildiouf701@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Odoo/input_Mot de passe_password'), 'ESS0v/OuQa+DMSYX2A5JYA==')
-
-WebUI.click(findTestObject('Object Repository/Page_Odoo/button_Connexion'))
+WebUI.navigateToUrl('https://docs.katalon.com/katalon-studio/docs/overview.html')
 
 WebUI.closeBrowser()
 
