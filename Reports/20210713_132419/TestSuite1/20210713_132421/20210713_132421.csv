@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 91.0.4472.124,,,2021-07-13 14:31:29,2021-07-13 14:32:20,"50,944s",PASSED
+,,,,,,,
+Test Cases/Test 1 by Tom,Chrome 91.0.4472.124,,,2021-07-13 14:31:35,2021-07-13 14:32:05,"29,293s",PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-07-13 14:31:40,2021-07-13 14:31:50,"9,842s",PASSED
+"navigateToUrl(""https://comptatest.odoo.com/web/login"")",Chrome 91.0.4472.124,,,2021-07-13 14:31:50,2021-07-13 14:31:56,"6,174s",PASSED
+"setText(findTestObject(""Object Repository/Page_Odoo/input_Email_login""), ""djibrildiouf701@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-13 14:31:56,2021-07-13 14:31:57,"1,022s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Odoo/input_Mot de passe_password""), ""ESS0v/OuQa+DMSYX2A5JYA=="")",Chrome 91.0.4472.124,,,2021-07-13 14:31:57,2021-07-13 14:31:58,"1,295s",PASSED
+"click(findTestObject(""Object Repository/Page_Odoo/button_Connexion""))",Chrome 91.0.4472.124,,,2021-07-13 14:31:58,2021-07-13 14:32:02,"3,465s",PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-07-13 14:32:02,2021-07-13 14:32:05,"2,931s",PASSED
+,,,,,,,
+Test Cases/Test 2 by Kim,Chrome 91.0.4472.124,,,2021-07-13 14:32:05,2021-07-13 14:32:20,"15,590s",PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-07-13 14:32:05,2021-07-13 14:32:07,"2,015s",PASSED
+"navigateToUrl(""https://docs.katalon.com/katalon-studio/docs/overview.html"")",Chrome 91.0.4472.124,,,2021-07-13 14:32:07,2021-07-13 14:32:19,"11,787s",PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-07-13 14:32:19,2021-07-13 14:32:20,"1,395s",PASSED
